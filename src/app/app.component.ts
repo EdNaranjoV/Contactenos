@@ -10,21 +10,33 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 })
 export class AppComponent {
   public appPages = [
-    {
+   /*  {
       title: 'Home',
       url: '/home',
       icon: 'home'
     },
-    {
+   {
       title: 'List',
       url: '/list',
       icon: 'list'
-    },
+    },*/
     {
       title: 'Info',
       url: '/info',
       icon: 'cog'
+    },
+    {
+      title: 'Contactos',
+      url: '/contactos',
+      icon: 'contacts'
+    },
+    {
+      title: 'Añadir Contacto',
+      url: '/add-contact',
+      icon: 'add-circle-outline'
     }
+    
+    
   ];
 
   constructor(
