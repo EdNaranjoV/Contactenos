@@ -9,14 +9,14 @@
 
 <ion-item>
   <ion-label position="floating">Nombre</ion-label>
-  <ion-input></ion-input>
+  <ion-input id="nom" [(ngModel)]="nombres"></ion-input>
 </ion-item>
 
 <ion-item>
   <ion-label position="floating">Telefono</ion-label>
-  <ion-input></ion-input>
+  <ion-input id="telef" [(ngModel)]="tel"></ion-input>
 </ion-item>
 
-<ion-button shape="round" fill="outline">Guardar</ion-button>
+<ion-button (click)="onClick()" shape="round" fill="outline">Guardar</ion-button>
 
 </ion-content>
